@@ -11,7 +11,8 @@
 - Phone: +38 (099) 924-62-36
 - E-mail: andriihordov18@gmail.com
 - Telegram: @ah_andrew
-
+- [LinkedIn](https://www.linkedin.com/in/ah-andrew/) 
+- [GitHub](https://github.com/AndriiHordov/)
 
 ### About Myself
 ----------------------------------------------------------------------------------------------------------------------------------------
