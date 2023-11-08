@@ -57,3 +57,20 @@ const generateHashtag = str => str && /\w/.test(str) &&
                                ? str : false
 ```
 
+### Cources
+----------------------------------------------------------------------------------------------------------------------------------------
+![Completed cources.](/assets/img/cources.png)
+
+- [x] HTML and CSS Coureces on [code-basics](https://code-basics.com/) (completed)
+
+![In progress cources.](/assets/img/w3c.png)
+- [ ] HTML and CSS Tutorials on the [w3schools](https://www.w3schools.com/) (in progress)
+- [ ] JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+- [ ] RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+### Languages
+----------------------------------------------------------------------------------------------------------------------------------------
++ **English** - Intermediate
++ **Russian** - Intermediate
++ **Ukrainian** - Native
++ **Polish** - Basic
