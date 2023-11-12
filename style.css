@@ -215,3 +215,54 @@ section img:hover, .code-example img:hover {
 	text-indent: 5vw;
 }
 }
+@media screen and (min-width: 321px) and (max-width: 480px) {
+	html {
+		font-size: 11px;
+	}
+	body {
+		padding: 1vw;
+	}
+	li p img {
+		width: 18vw;
+		height: 6vw;
+	}
+	meter {
+		margin-left: 1%;
+		height: 10vw;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+	h3 {
+		font-size: 2.5rem;
+	}
+	h6 {
+		font-size: 1rem;
+	}
+	code {
+		word-wrap:break-word;
+	}
+	section {
+		padding: 0 2vw;
+	}
+	.indent {
+		margin-left: 5vw;
+	}
+	.pad {
+		padding-left: 3vw;
+	}
+	.wrapper {
+		flex-direction: column;
+		gap: 10px;
+		width: 100%;
+	}
+	.left-column, .right-column {
+		width: 100%;
+	}
+	.right-column p {
+		text-indent: 5vw;
+	}
+	.code-example img {
+		width: 50%;
+	 }
+}
