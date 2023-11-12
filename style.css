@@ -25,6 +25,11 @@ footer {
 	font-size: 1.2rem;
 	background-color: rgba(8, 155, 140, 0.741)
 }
+a {
+	color:transparent;
+	display:inline-block;
+	width: 2vw;
+}
 a>i {
 	color: black;
 }
@@ -171,6 +176,9 @@ section img:hover, .code-example img:hover {
 	body {
 		padding: 1vw;
 	}
+	a {
+		width: 4vw;
+	}
 	li p img {
 		width: 15vw;
 		height: 5vw;
@@ -222,6 +230,9 @@ section img:hover, .code-example img:hover {
 	body {
 		padding: 1vw;
 	}
+	a {
+		width: 4vw;
+	}
 	li p img {
 		width: 18vw;
 		height: 6vw;
@@ -272,6 +283,9 @@ section img:hover, .code-example img:hover {
 	}
 	body {
 		padding: 1vw;
+	}
+	a {
+		width: 3vw;
 	}
 	h1 {
 		font-size: 4rem;

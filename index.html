@@ -45,10 +45,13 @@
 					<ul>
 						<li><p><p><img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"	alt="Visual Studio Code - text editor for coders with helpful functionality"></p>
 							<meter low="55" high="80" max="100" value="60"></meter>
+						</li>
 						<li><p><img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma - design tool"></p>
 							<meter low="55" high="80" max="100" value="60"></meter>
+						</li>
 						<li><p><img src="https://img.shields.io/badge/Inkscape-e0e0e0?style=for-the-badge&logo=inkscape&logoColor=white" alt="Inkscape - vector graphics tool"></p>
 							<meter low="55" high="80" max="100" value="60"></meter>
+						</li>
 						<li><p><img src="https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=white" alt="Krita - raster graphic toool"></p>
 							<meter low="55" high="80" max="100" value="60"></meter>
 						</li>
@@ -118,10 +121,10 @@
 					<li>If the input or the result is an empty string it must return false.</li>
 				</ul>
 				<code>
-					<span class="indent"><span class="func-name">const</span> generateHashtag = str =&gt; str && <span class="reg">/\w/</span>.test(str) &&</span><br>
+					<span class="indent"><span class="func-name">const</span> generateHashtag = str =&gt; str &amp;&amp; <span class="reg">/\w/</span>.test(str) &amp;&amp;</span><br>
 					<span class="indent pad">(str = <span class="string">`#</span>${str.split(<span class="string">" "</span>)</span><br>
 					<span class="indent pad">.map(el =&gt; el? el = `${el[<span class="number">0</span>].toUpperCase()}${el.substring(<span class="number">1</span>)}<span class="string">`</span> : el)</span><br>
-					<span class="indent pad">.join(<span class="string">""</span>)}`).length &lt;= <span class="number">140</span></span><br> 
+					<span class="indent pad">.join(<span class="string">""</span>)}`).length &lt;= <span class="number">140</span></span><br>
 					<span class="indent pad">? str : <span class="bool">false</span></span>
 				</code>
 			</section>
@@ -129,11 +132,11 @@
 	</div>
 	<footer>
 		<h3>Find me on social</h3>
-		<a href="https://www.facebook.com/ahandriihordov/" target="_blank"><i class="fa fa-facebook-official"></i></a>
-		<a href="https://t.me/ah_andrew/" target="_blank"><i class="fa fa-brands fa-telegram"></i></a>
-		<a href="https://github.com/AndriiHordov/" target="_blank"><i class="fa fa-brands fa-github"></i></a>
-		<a href="https://www.linkedin.com/in/ah-andrew/" target="_blank"><i class="fa fa-linkedin"></i></a>
-		<a href="https://join.skype.com/invite/KEsc7CkLLV0n" target="_blank"><i class="fa fa-skype"></i></a>
+		<a href="https://www.facebook.com/ahandriihordov/" target="_blank"><i class="fa fa-facebook-official"></i>Facebook</a>
+		<a href="https://t.me/ah_andrew/" target="_blank"><i class="fa fa-brands fa-telegram"></i>Telegram</a>
+		<a href="https://github.com/AndriiHordov/" target="_blank"><i class="fa fa-brands fa-github">GitHub</i></a>
+		<a href="https://www.linkedin.com/in/ah-andrew/" target="_blank"><i class="fa fa-linkedin"></i>LinkedIn</a>
+		<a href="https://join.skype.com/invite/KEsc7CkLLV0n" target="_blank"><i class="fa fa-skype"></i>Skype</a>
 	</footer>
 </body>
 </html>
