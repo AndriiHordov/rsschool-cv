@@ -266,3 +266,57 @@ section img:hover, .code-example img:hover {
 		width: 50%;
 	 }
 }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	html {
+		font-size: 12px;
+	}
+	body {
+		padding: 1vw;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+	h6 {
+		font-size: 1rem;
+	}
+	section {
+		padding: 0 2vw;
+	}
+	li p img {
+		width: 15vw;
+		height: 5vw;
+	}
+	meter {
+		margin-left: 1%;
+		height: 10vw;
+	}
+	footer {
+		width: 98%;
+	}
+	.wrapper {
+		flex-direction: column;
+		gap: 5px;
+		width: 100%;
+	}
+	.left-column, .right-column {
+		width: 100%;	
+	}
+	.pad {
+		margin-left: 1%;
+	}
+	.left-column, .right-column, footer {
+		font-size: 1.3rem;
+	}
+	.code-example img {
+		width: 60%;
+	 }
+	.languages p {
+		font-size: 2rem;
+	}
+	.right-column p {
+		text-indent: 5vw;
+	}
+}
