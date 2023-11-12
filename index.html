@@ -78,10 +78,52 @@
     </div>
 		<div class="right-column">
 			<section class="about-me">
-			</section>
+				<h3><i class="fa fa-suitcase fa-fw"></i>About me</h3>
+					<p>Hello! My name is Andrii. I am 30 years old. I'm from Ukraine.
+						I'm an accountant by profession, but it's time to change something.
+						Since childhood, I have been interested in computers and Internet technologies, so I decided to try my hand at IT.
+						I believe, that my ability to learn and to gain new skills will help me become a Frontend Developer and in the future - a proficient Full Stack developer.
+					</p>
+		</section>
 			<section class="cources">
+				<h3><i class="fa fa-certificate fa-fw"></i>Cources</h3>
+				<h6><i class="fa fa-calendar fa-fw"></i>nov 2023 Completed</h6>
+				<p><b>HTML and CSS Coureces on code-basics</b></p>
+				<img src="/rsschool-cv/assets/img/cources.png" alt="Сompleted cources">
+				<h5><a href="https://code-basics.com/" target="_blank">code-basics</a></h5>
+				<h6><i class="fa fa-calendar fa-fw"></i>nov 2023 In progress</h6>
+				<p><b>HTML and CSS Tutorials on the w3schools</b></p>
+				<img src="/rsschool-cv/assets/img/w3c.png" alt="In progress cources">
+				<h5><a href="https://www.w3schools.com/">w3schools</a></h5>
+				<h6><i class="fa fa-calendar fa-fw"></i>nov 2023 In progress</h6>
+				<p><b>JavaScript Manual on the learnjavascript</b></p>
+				<h5><a href="https://learn.javascript.ru/">learn.javascript</a></h5>
+				<br>
+				<h6><i class="fa fa-calendar fa-fw"></i>nov 2023 In progress</h6>
+				<p><b>RS School Course «JavaScript/Front-end. Stage 1»</b></p>
+				<h5><a href="https://rs.school/">RS School</a></h5>
 			</section>
 			<section class="code-example">
+				<h3><i class="fa fa-solid fa-code"></i>Code Example</h3>
+				<p>My profile on <a href="www.codewars.com/users/AndrewWinterH">CodeWars</a>and it's my stats: <img class="indent" src="https://www.codewars.com/users/AndrewWinterH/badges/small" alt="CodeWars profile">
+				<p>Here is KATA from CodeWars</p> 
+				<p><b>The Hashtag Generator</b></p>
+				<p><b>DESCRIPTION:</b></p>
+				<p>The marketing team is spending way too much time typing in hashtags. Let's help them with our own Hashtag Generator!</p>
+				<p>Here's the deal:</p>
+				<ul class="code-task">
+					<li>It must start with a hashtag (#).</li>
+					<li>All words must have their first letter capitalized.</li>
+					<li>If the final result is longer than 140 chars it must return false.</li>
+					<li>If the input or the result is an empty string it must return false.</li>
+				</ul>
+				<code>
+					<span class="indent"><span class="func-name">const</span> generateHashtag = str =&gt; str && <span class="reg">/\w/</span>.test(str) &&</span><br>
+					<span class="indent pad">(str = <span class="string">`#</span>${str.split(<span class="string">" "</span>)</span><br>
+					<span class="indent pad">.map(el =&gt; el? el = `${el[<span class="number">0</span>].toUpperCase()}${el.substring(<span class="number">1</span>)}<span class="string">`</span> : el)</span><br>
+					<span class="indent pad">.join(<span class="string">""</span>)}`).length &lt;= <span class="number">140</span></span><br> 
+					<span class="indent pad">? str : <span class="bool">false</span></span>
+				</code>
 			</section>
 		</div>
 	</div>
