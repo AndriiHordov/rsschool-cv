@@ -164,3 +164,54 @@ section img:hover, .code-example img:hover {
 	border-radius: 10px;
 }
 }
+@media (max-width: 320px) {
+	html {
+		font-size: 10px;
+	}
+	body {
+		padding: 1vw;
+	}
+	li p img {
+		width: 15vw;
+		height: 5vw;
+	}
+	meter {
+		margin-left: 1%;
+		height: 10vw;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+	h6 {
+		font-size: 1rem;
+	}
+	section {
+		padding: 0 2vw;
+	}
+	code {
+		word-wrap: break-word;
+	}
+	.indent {
+		margin-left: 5vw;
+	}
+	.wrapper {
+		flex-direction: column;
+		gap: 5px;
+		width: 100%;
+	}
+	.left-column, .right-column {
+		width: 99%;
+	}
+	.pad {
+		padding-left: 1vw;
+	}
+ .code-example img {
+	width: 80%;
+ }
+ .right-column p {
+	text-indent: 5vw;
+}
+}
