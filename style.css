@@ -139,3 +139,28 @@ img {
 .cources p {
 	font-size: 2rem;
 }
+@media screen and (any-hover:hover) {
+	* section:hover, header:hover, footer:hover {
+	transition: box-shadow 0.3s;
+	box-shadow: -2px -2px 3px 5px rgb(33, 53, 183);
+}
+* i:hover { 
+	transform: scale(1.5);
+	color: rgb(225, 137, 13);
+	background-color: transparent;
+}
+footer i:hover {
+	color: rgb(33, 82, 161);
+	transition: transform 0.6s;
+	transform: rotate(360deg) scale(2);
+}
+section img:hover, .code-example img:hover {
+	transition: transform 0.5s;
+	transform: scale(1.2);
+}
+.right-column img:hover {
+	position: relative;
+	left: 30px;
+	border-radius: 10px;
+}
+}
